@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+
+    /* Colors */
+    --gray-color: #2f3132;
+    --gray-color-darker: #222222;
+    --blue-color: #00b8fc;
+    --white-color: #ffffff;
+}
+/* --- GENERAL STYLES --- */
+nav{
+    height: 60px;
+    width: 100%;
+    background: var(--white-color);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    list-style-type: none;
+}
+nav ul li{
+    margin: 20px;
+}
+nav ul li a{
+    color: var(--gray-color-darker);
+    font-size: revert;
+}
+section{
+    height: 1000px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 1300px;
+
+    display: inherit;
+    flex-direction: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 4rem;
+    line-height: 1;
+}
+p{
+    line-height: 1.6;
+}
+.image-container{
+    width: 800px;
+}
+.image-container img{
+    height: 100%;
+    width: 100%;
+}
+.text-container{
+    display: inherit;
+    flex-direction: column;
+
+    width: 800px;
+}
+.line{
+    margin: 20px 0;
+
+    height: 10px;
+    width: 100px;
+    background: linear-gradient(90deg,
+    var(--white-color), var(--blue-color));
+}
+/* --- LANDING SECTION SPECIFIC --- */
+.landing{
+    background: var(--gray-color);
+}
+.landing h1, .landing p{
+    text-transform: uppercase;
+}
+.price-text{
+    font-size: 2rem;
+}
+a, a:visited{
+    font-size: 1.5rem;
+    text-decoration: none;
+
+    transition: .2s ease-in-out;
+}
+a:hover{
+    color: var(--blue-color);
+}
+.blue{
+    color: var(--blue-color);
+}
+/* --- AUDIO SECTION SPECIFIC --- */
+.audio{
+    background: radial-gradient(at 40%,
+    var(--gray-color), var(--gray-color-darker));
+    text-align: right;
+}
+.audio .text-container{
+    align-items: flex-end;
+}
+/* --- WIRELESS SECTION SPECIFIC --- */
+.wireless{
+    background: #2f3132;
+}
+/* --- MICROPHONE SECTION SPECIFIC --- */
+.microphone{
+    background: radial-gradient(at 40%,
+    var(--gray-color), var(--gray-color-darker));
+    text-align: right;
+}
+.microphone .text-container{
+    align-items: flex-end;
+}
+/* --- MEDIA QUERIES --- */
+@media screen and (max-width: 1350px) {
+    .image-container{
+        width: 400px;
+    }
+    .text-container{
+        width: 500px;
+    }
+    @media screen and (max-width: 900px){
+        section{
+            height: 700px;
+        }
+        .image-container{
+            width: 300px;
+        }
+        .text-container{
+            width: 300px;
+        }
+        h1{
+            font-size: 2rem;
+        }
+        p{
+            font-size: .9rem;
+        }
+        @media screen and (max-width: 700px) {
+            .image-container{
+                width: 200px;
+            }
+            .text-container{
+                width: 200px;
+            }
+        }
+    }
+}
