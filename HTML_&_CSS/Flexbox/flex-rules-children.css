@@ -1,0 +1,17 @@
+.stretch-child{
+    height: auto;
+}
+.baseline-child{
+    justify-content: revert;
+    align-items: revert;
+}
+.baseline-child:first-child{
+    height: 100px;
+    width: 70px;
+    font-size: 34px;
+}
+.baseline-child:last-child{
+    height: 120px;
+    width: 30px;
+    font-size: 12px;
+}

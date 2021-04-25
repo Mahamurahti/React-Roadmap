@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Display: flex</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="flex-rules-parent.css">
+    <link rel="stylesheet" href="flex-rules-children.css">
+</head>
+<body>
+<header>
+    <h1>Display: flex</h1>
+</header>
+<div class="column">
+    <section id="text-container">
+        <h2>
+            Display: flex
+        </h2>
+        <p>
+            This is a demonstration page, that shows almost everything there is to know about the CSS rules regarding flexbox.
+            Click on the buttons below to see how the different rules apply to an element with the display of flex.
+        </p>
+    </section>
+    <section id="button-container"></section>
+</div>
+<div class="row">
+    <section class="menu">
+        <h2>Container</h2>
+        <button id="flex-direction">Flex-direction</button>
+        <button id="flex-wrap">Flex-wrap</button>
+        <button id="flex-flow">Flex-flow</button>
+        <button id="justify-content">Justify-content</button>
+        <button id="align-items">Align-items</button>
+        <button id="align-content">Align-content</button>
+    </section>
+    <section class="example-container">
+        <div class="flex-parent">
+            <div class="flex-child">1</div>
+            <div class="flex-child">2</div>
+            <div class="flex-child">3</div>
+        </div>
+    </section>
+    <section class="menu">
+        <h2>Children</h2>
+        <button id="order">Order</button>
+        <button id="flex-grow">Flex-grow</button>
+        <button id="flex-shrink">Flex-shrink</button>
+        <button id="flex-basis">Flex-basis</button>
+        <button id="flex">Flex</button>
+        <button id="align-self">Align-self</button>
+    </section>
+</div>
+</body>
+<script src="main.js"></script>
+</html>

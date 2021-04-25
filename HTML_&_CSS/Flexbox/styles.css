@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+
+    /* Colors */
+    --white: #ffffff;
+    --dark: #2C2F33;
+    --darker: #23272A;
+    --red: #ba0000;
+    --redder: #f80000;
+    --orange: #f3aa4e;
+    --oranger: #e77e4e;
+}
+button{
+    margin: 1rem 0;
+
+    width: 10rem;
+    height: 2rem;
+    border-radius: 50px;
+    border: none;
+
+    font-size: 16px;
+    background: var(--orange);
+
+    transition: .2s background-color ease-in-out,
+    .2s width ease-in-out,
+    .2s letter-spacing ease-in-out;
+}
+button:hover{
+    background: var(--oranger);
+    letter-spacing: 2px;
+    width: 11rem;
+
+    cursor: pointer;
+}
+body{
+    color: var(--white);
+    background: var(--dark);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    max-width: 1000px;
+    margin: 0 auto;
+}
+header{
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+
+    margin: 10vh 0;
+}
+header h1{
+    font-size: 8rem;
+    font-family: 'Dancing Script', cursive;
+
+    background: linear-gradient(45deg, var(--orange), var(--oranger));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+section{
+    display: inherit;
+    flex-direction: column;
+}
+.column{
+    min-height: 20vh;
+}
+#button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+
+    margin: 6vh 0;
+}
+#button-container button{
+    margin: 10px 5px;
+    width: 14rem;
+}
+.row{
+    display: inherit;
+    flex-direction: row;
+}
+.menu{
+    display: inherit;
+    align-items: center;
+
+    width: 10rem;
+    margin: 0 2rem;
+    flex: 50%;
+}
+.example-container{
+    margin-bottom: 10vh;
+}
+.flex-parent{
+    display: flex;
+
+    width: 500px;
+    height: 500px;
+
+    padding: 20px;
+
+    background-color: var(--darker);
+    border: var(--white) 2px solid;
+}
+.flex-child{
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+
+    color: var(--darker);
+
+    width: 50px;
+    height: 50px;
+
+    margin: 10px;
+
+    font-weight: bold;
+    background-color: var(--orange);
+}
