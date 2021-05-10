@@ -9,7 +9,30 @@ Series of exercises to learn React. This repository follows the roadmap created 
     - Quick landing page for a product
     - Flexbox, media queries and general html
 2. Flexbox
+    - A demonstration page for all flexbox rules
+    - JavaScript with innerHTML
 3. Grid
 4. Margins
 5. Form page
 6. Media Queries
+
+# JavaScript
+1. Variables
+2. Arrays
+3. Operators
+4. Functions
+5. Loops
+6. If - Else statements
+7. Strings
+8. Regexp
+9. Numbers and Math
+10. Dates
+11. DOM Node
+12. Browser
+13. Events
+14. Errors
+
+# General Development Skills
+1. GIT
+2. [Data Structures and Algorithms](https://github.com/Mahamurahti/DataStructures-Algorithms-Exercises)
+3. [Design Patterns](https://github.com/Mahamurahti/DesignPattern-Exercises)
