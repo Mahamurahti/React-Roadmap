@@ -21,6 +21,12 @@ function addRuleToChildren(name) {
     }
 }
 
+function addRuleToChild(name, index) {
+    let flexChild = document.getElementsByClassName('flex-child')[index - 1];
+    flexChild.className = "";
+    flexChild.className = `flex-child border ${name}`;
+}
+
 /**
  * Resets the rules of all children
  */
@@ -205,22 +211,122 @@ document.getElementById("align-content").onclick = function (){
     `;
     addChildren(14);
 }
-// --------------------------
+// ---------------------------------------------------------------------------------------------------------------------
 document.getElementById("order").onclick = function (){
-    alert("Hello")
+    delChildren()
+    document.getElementById("text-container").innerHTML = `
+        <h2>
+            Order
+        </h2>
+        <p>
+            Define the order of the current element in the layout. Default order for all elements is 0.
+        </p>
+    `;
+    addRuleToParent('flex-start');
+    document.getElementById("button-container").innerHTML = `
+        <button onclick="addRuleToChild('order-2', 1);">Order 1</button>
+        <button onclick="addRuleToChild('order-4', 1);">Order 3</button>
+        <button onclick="addRuleToChild('order-5', 1);">Order 4</button>
+    `;
+    addChildren(7);
+    let flexChildren = Array.from(document.getElementsByClassName("flex-child"));
+    for(let i = 0; i <= flexChildren.length - 1; i++){
+        flexChildren[i].className = "";
+        flexChildren[i].className = "flex-child order-" + (i + 1);
+    }
 }
 document.getElementById("flex-grow").onclick = function (){
-    alert("Hello")
+    delChildren()
+    document.getElementById("text-container").innerHTML = `
+        <h2>
+            Flex-grow
+        </h2>
+        <p>
+            Define how the current item grows, meaning how much space it takes up. If all items have the same grow
+            amount, the space will be distributed equally among them. If only onw has grow, it takes up the remaining
+            available space. Opposite of flex-shrink.
+        </p>
+    `;
+    addRuleToParent('flex-start');
+    document.getElementById("button-container").innerHTML = `
+        <button onclick="addRuleToChild('grow-3', 1);">Grow first by 3</button>
+        <button onclick="addRuleToChild('grow-1', 2);">Grow second by 1</button>
+        <button onclick="addRuleToChild('grow-2', 3);">Grow third by 2</button>
+    `;
+    addChildren(3);
 }
 document.getElementById("flex-shrink").onclick = function (){
-    alert("Hello")
+    delChildren()
+    document.getElementById("text-container").innerHTML = `
+        <h2>
+            Flex-shrink
+        </h2>
+        <p>
+            Define how the current item shrinks, meaning how much space it takes up. If all items have the same shrink
+            amount, the space will be distributed equally among them. If only onw has shrink, it takes up the remaining
+            available space. Opposite of flex-grow.
+        </p>
+    `;
+    addRuleToParent('flex-start');
+    document.getElementById("button-container").innerHTML = `
+        <button onclick="addRuleToChild('shrink-3', 1);">Shrink first by 3</button>
+        <button onclick="addRuleToChild('shrink-1', 2);">Shrink second by 1</button>
+        <button onclick="addRuleToChild('shrink-2', 3);">Shrink third by 2</button>
+    `;
+    addChildren(3);
 }
 document.getElementById("flex-basis").onclick = function (){
-    alert("Hello")
+    delChildren()
+    document.getElementById("text-container").innerHTML = `
+        <h2>
+            Flex-basis
+        </h2>
+        <p>
+            Define the default size of a flex item before the remainder of space is distributed. Default is auto.
+        </p>
+    `;
+    addRuleToParent('flex-start');
+    document.getElementById("button-container").innerHTML = `
+        <button onclick="addRuleToChild('basis-20', 1);">Basis first by 20%</button>
+        <button onclick="addRuleToChild('basis-0', 2);">Basis second by 0</button>
+        <button onclick="addRuleToChild('basis-auto', 3);">Basis third by auto</button>
+    `;
+    addChildren(3);
 }
 document.getElementById("flex").onclick = function (){
-    alert("Hello")
+    delChildren()
+    document.getElementById("text-container").innerHTML = `
+        <h2>
+            Flex
+        </h2>
+        <p>
+            This is a shorthand function for flex-grow, flex-shrink and flex-basis. The first parameter is flex-grow and
+            the second and third are for flex-shrink and flex-basis respectively and are optional. Default is 0 1 auto.
+        </p>
+    `;
+    addRuleToParent('flex-start');
+    document.getElementById("button-container").innerHTML = `
+        <button onclick="addRuleToChild('flex-2-1-30', 1);">Flex first by 2 1 30%</button>
+        <button onclick="addRuleToChild('flex-4', 2);">Flex second by 4</button>
+        <button onclick="addRuleToChild('flex-3-3-5rem', 3);">Flex third by 3 3 5rem</button>
+    `;
+    addChildren(3);
 }
 document.getElementById("align-self").onclick = function (){
-    alert("Hello")
+    delChildren()
+    document.getElementById("text-container").innerHTML = `
+        <h2>
+            Align-self
+        </h2>
+        <p>
+            Defines an aligning rule to certain item. See align-items explanation.
+        </p>
+    `;
+    addRuleToParent('flex-start');
+    document.getElementById("button-container").innerHTML = `
+        <button onclick="addRuleToChild('align-self-center', 1);">Align first center</button>
+        <button onclick="addRuleToChild('align-self-end', 3);">Align third end</button>
+        <button onclick="addRuleToChild('align-self-start', 5);">Align fifth start</button>
+    `;
+    addChildren(7);
 }

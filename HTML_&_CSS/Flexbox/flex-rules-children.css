@@ -1,3 +1,4 @@
+/* For parents */
 .stretch-child{
     height: auto;
 }
@@ -14,4 +15,79 @@
     height: 120px;
     width: 30px;
     font-size: 12px;
+}
+.border{
+    border: 2px solid var(--red);
+}
+/* Order */
+.order-1{
+    order: 1;
+}
+.order-2{
+    order: 2;
+}
+.order-3{
+    order: 3;
+}
+.order-4{
+    order: 4;
+}
+.order-5{
+    order: 5;
+}
+.order-6{
+    order: 6;
+}
+.order-7{
+    order: 7;
+}
+/* Grow */
+.grow-1{
+    flex-grow: 1;
+}
+.grow-2{
+    flex-grow: 2;
+}
+.grow-3{
+    flex-grow: 3;
+}
+/* Shrink */
+.shrink-1{
+    flex-grow: 1;
+}
+.shrink-2{
+    flex-grow: 2;
+}
+.shrink-3{
+    flex-grow: 3;
+}
+/* Basis */
+.basis-20{
+    flex-basis: 20%;
+}
+.basis-0{
+    flex-basis: 0;
+}
+.basis-auto{
+    flex-basis: auto;
+}
+/* Flex */
+.flex-2-1-30{
+    flex: 2 1 30%;
+}
+.flex-4{
+    flex: 4;
+}
+.flex-3-3-5rem{
+    flex: 3 3 5rem;
+}
+/* Align-self */
+.align-self-center{
+    align-self: center;
+}
+.align-self-end{
+    align-self: flex-end;
+}
+.align-self-start{
+    align-self: flex-start;
 }
