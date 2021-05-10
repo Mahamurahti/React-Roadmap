@@ -1,5 +1,5 @@
 # React-Roadmap
-Series of exercises to learn React. This repository follows the roadmap created by 
+Series of exercises to learn React. This repository loosely follows the roadmap created by 
 [Adam Golab](https://github.com/adam-golab/react-developer-roadmap), which can be seen below.
 
 ![alt text](https://github.com/adam-golab/react-developer-roadmap/blob/master/roadmap.png "React Roadmap")
@@ -12,7 +12,6 @@ Series of exercises to learn React. This repository follows the roadmap created 
     - A demonstration page for all flexbox rules
     - JavaScript with innerHTML
 3. Grid
-4. Margins
 5. Form page
 6. Media Queries
 
@@ -36,3 +35,33 @@ Series of exercises to learn React. This repository follows the roadmap created 
 1. GIT
 2. [Data Structures and Algorithms](https://github.com/Mahamurahti/DataStructures-Algorithms-Exercises) | DONE :heavy_check_mark:
 3. [Design Patterns](https://github.com/Mahamurahti/DesignPattern-Exercises) | DONE :heavy_check_mark:
+
+# React
+React exercises are from [Reactjs.org](https://reactjs.org/docs/getting-started.html)
+1. Add React to a Website | DONE :heavy_check_mark:
+
+## Main Concepts
+1. Hello World | DONE :heavy_check_mark:
+2. Introducing JSX | DONE :heavy_check_mark:
+3. Rendering Elements
+4. Components and Props
+5. State and Lifecycle
+6. Handling Events
+7. Conditional Rendering
+8. Lists and Keys
+9. Forms
+10. Lifting State Up
+11. Composition vs Inheritance
+12. Thinking In React
+
+## Hooks
+1. Introducing Hooks
+2. Hooks at a Glance
+3. Using the State Hook
+4. Using the Effect Hook
+5. Rules of Hooks
+6. Building Your Own Hooks
+
+## Todo App
+1. Create app
+2. Document the app
