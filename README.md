@@ -5,10 +5,10 @@ Series of exercises to learn React. This repository follows the roadmap created 
 ![alt text](https://github.com/adam-golab/react-developer-roadmap/blob/master/roadmap.png "React Roadmap")
 
 # HTML & CSS
-1. Product landing page | DONE :heavy_check_mark:
+1. Product landing page | :heavy_check_mark:
     - Quick landing page for a product
     - Flexbox, media queries and general html
-2. Flexbox  | DONE :heavy_check_mark:
+2. Flexbox | :heavy_check_mark:
     - A demonstration page for all flexbox rules
     - JavaScript with innerHTML
 3. Grid
