@@ -34,5 +34,5 @@ Series of exercises to learn React. This repository follows the roadmap created 
 
 # General Development Skills
 1. GIT
-2. [Data Structures and Algorithms](https://github.com/Mahamurahti/DataStructures-Algorithms-Exercises)
-3. [Design Patterns](https://github.com/Mahamurahti/DesignPattern-Exercises)
+2. [Data Structures and Algorithms](https://github.com/Mahamurahti/DataStructures-Algorithms-Exercises) | DONE :heavy_check_mark:
+3. [Design Patterns](https://github.com/Mahamurahti/DesignPattern-Exercises) | DONE :heavy_check_mark:
