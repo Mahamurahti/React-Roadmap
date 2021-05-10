@@ -21,6 +21,11 @@ function addRuleToChildren(name) {
     }
 }
 
+/**
+ *Deletes all rules from flexChild and then adds ne ones
+ * @param name {String} of the css rule to be added
+ * @param index {int} of the child
+ */
 function addRuleToChild(name, index) {
     let flexChild = document.getElementsByClassName('flex-child')[index - 1];
     flexChild.className = "";
@@ -60,7 +65,7 @@ function delChildren(){
 /**
  * Onclick function for "flex-direction" button.
  */
-document.getElementById("flex-direction").onclick = function (){
+function flexDirection() {
     delChildren()
     document.getElementById("text-container").innerHTML = `
         <h2>
@@ -85,7 +90,7 @@ document.getElementById("flex-direction").onclick = function (){
 /**
  * Onclick function for "flex-wrap" button.
  */
-document.getElementById("flex-wrap").onclick = function (){
+function flexWrap() {
     delChildren()
     document.getElementById("text-container").innerHTML = `
         <h2>
@@ -110,7 +115,7 @@ document.getElementById("flex-wrap").onclick = function (){
 /**
  * Onclick function for "flex-flow" button.
  */
-document.getElementById("flex-flow").onclick = function (){
+function flexFlow() {
     delChildren()
     document.getElementById("text-container").innerHTML = `
         <h2>
@@ -133,7 +138,7 @@ document.getElementById("flex-flow").onclick = function (){
 /**
  * Onclick function for "justify-content" button.
  */
-document.getElementById("justify-content").onclick = function (){
+function justifyContent() {
     delChildren()
     document.getElementById("text-container").innerHTML = `
         <h2>
@@ -161,7 +166,7 @@ document.getElementById("justify-content").onclick = function (){
 /**
  * Onclick function for "align-items" button.
  */
-document.getElementById("align-items").onclick = function (){
+function alignItems() {
     delChildren()
     document.getElementById("text-container").innerHTML = `
         <h2>
@@ -188,7 +193,7 @@ document.getElementById("align-items").onclick = function (){
 /**
  * Onclick function for "align-content" button.
  */
-document.getElementById("align-content").onclick = function (){
+function alignContent() {
     delChildren()
     document.getElementById("text-container").innerHTML = `
         <h2>
@@ -212,7 +217,11 @@ document.getElementById("align-content").onclick = function (){
     addChildren(14);
 }
 // ---------------------------------------------------------------------------------------------------------------------
-document.getElementById("order").onclick = function (){
+
+/**
+ * Onclick function for "order" button.
+ */
+function order() {
     delChildren()
     document.getElementById("text-container").innerHTML = `
         <h2>
@@ -235,7 +244,11 @@ document.getElementById("order").onclick = function (){
         flexChildren[i].className = "flex-child order-" + (i + 1);
     }
 }
-document.getElementById("flex-grow").onclick = function (){
+
+/**
+ * Onclick function for "flex-grow" button.
+ */
+function flexGrow() {
     delChildren()
     document.getElementById("text-container").innerHTML = `
         <h2>
@@ -255,7 +268,11 @@ document.getElementById("flex-grow").onclick = function (){
     `;
     addChildren(3);
 }
-document.getElementById("flex-shrink").onclick = function (){
+
+/**
+ * Onclick function for "flex-shrink" button.
+ */
+function flexShrink() {
     delChildren()
     document.getElementById("text-container").innerHTML = `
         <h2>
@@ -275,7 +292,11 @@ document.getElementById("flex-shrink").onclick = function (){
     `;
     addChildren(3);
 }
-document.getElementById("flex-basis").onclick = function (){
+
+/**
+ * Onclick function for "flex-basis" button.
+ */
+function flexBasis() {
     delChildren()
     document.getElementById("text-container").innerHTML = `
         <h2>
@@ -293,7 +314,11 @@ document.getElementById("flex-basis").onclick = function (){
     `;
     addChildren(3);
 }
-document.getElementById("flex").onclick = function (){
+
+/**
+ * Onclick function for "flex" button.
+ */
+function flex() {
     delChildren()
     document.getElementById("text-container").innerHTML = `
         <h2>
@@ -312,7 +337,11 @@ document.getElementById("flex").onclick = function (){
     `;
     addChildren(3);
 }
-document.getElementById("align-self").onclick = function (){
+
+/**
+ * Onclick function for "align-self" button.
+ */
+function alignSelf() {
     delChildren()
     document.getElementById("text-container").innerHTML = `
         <h2>
