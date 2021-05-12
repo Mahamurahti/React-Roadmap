@@ -16,14 +16,14 @@ Series of exercises to learn React. This repository loosely follows the roadmap 
 6. Media Queries
 
 # JavaScript
-1. Variables
-2. Arrays
-3. Operators
-4. Functions
-5. Loops
-6. If - Else statements
-7. Strings
-8. Regexp
+1. Variables | DONE :heavy_check_mark:
+2. Arrays | DONE :heavy_check_mark:
+3. Operators | DONE :heavy_check_mark:
+4. Functions | DONE :heavy_check_mark:
+5. Loops | DONE :heavy_check_mark:
+6. If - Else statements | DONE :heavy_check_mark:
+7. Strings | DONE :heavy_check_mark:
+8. Regexp | DONE :heavy_check_mark:
 9. Numbers and Math
 10. Dates
 11. DOM Node
@@ -43,8 +43,8 @@ React exercises are from [Reactjs.org](https://reactjs.org/docs/getting-started.
 ## Main Concepts
 1. Hello World | DONE :heavy_check_mark:
 2. Introducing JSX | DONE :heavy_check_mark:
-3. Rendering Elements
-4. Components and Props
+3. Rendering Elements | DONE :heavy_check_mark:
+4. Components and Props | DONE :heavy_check_mark:
 5. State and Lifecycle
 6. Handling Events
 7. Conditional Rendering
