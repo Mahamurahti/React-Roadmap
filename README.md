@@ -45,8 +45,8 @@ React exercises are from [Reactjs.org](https://reactjs.org/docs/getting-started.
 2. Introducing JSX | DONE :heavy_check_mark:
 3. Rendering Elements | DONE :heavy_check_mark:
 4. Components and Props | DONE :heavy_check_mark:
-5. State and Lifecycle
-6. Handling Events
+5. State and Lifecycle | DONE :heavy_check_mark:
+6. Handling Events | DONE :heavy_check_mark:
 7. Conditional Rendering
 8. Lists and Keys
 9. Forms
