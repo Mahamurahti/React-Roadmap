@@ -47,8 +47,8 @@ React exercises are from [Reactjs.org](https://reactjs.org/docs/getting-started.
 4. Components and Props | DONE :heavy_check_mark:
 5. State and Lifecycle | DONE :heavy_check_mark:
 6. Handling Events | DONE :heavy_check_mark:
-7. Conditional Rendering
-8. Lists and Keys
+7. Conditional Rendering | DONE :heavy_check_mark:
+8. Lists and Keys | DONE :heavy_check_mark:
 9. Forms
 10. Lifting State Up
 11. Composition vs Inheritance
