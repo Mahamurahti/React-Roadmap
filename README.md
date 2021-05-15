@@ -49,8 +49,8 @@ React exercises are from [Reactjs.org](https://reactjs.org/docs/getting-started.
 6. Handling Events | DONE :heavy_check_mark:
 7. Conditional Rendering | DONE :heavy_check_mark:
 8. Lists and Keys | DONE :heavy_check_mark:
-9. Forms
-10. Lifting State Up
+9. Forms | DONE :heavy_check_mark:
+10. Lifting State Up | DONE :heavy_check_mark:
 11. Composition vs Inheritance
 12. Thinking In React
 
