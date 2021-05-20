@@ -55,7 +55,7 @@ React exercises are from [Reactjs.org](https://reactjs.org/docs/getting-started.
 12. Thinking In React | DONE :heavy_check_mark:
 
 ## Hooks
-1. Introducing Hooks
+1. Introducing Hooks | DONE :heavy_check_mark:
 2. Hooks at a Glance
 3. Using the State Hook
 4. Using the Effect Hook
