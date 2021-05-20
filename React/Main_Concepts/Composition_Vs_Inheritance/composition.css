@@ -1,0 +1,35 @@
+:root{
+    color: white;
+    background-color: black;
+}
+
+.FancyBorder {
+    padding: 10px 10px;
+    border: 10px solid;
+}
+
+.FancyBorder-red {
+    border-color: red;
+}
+
+.Dialog-title {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.Dialog-message {
+    font-size: larger;
+}
+
+.SplitPane {
+    display: flex;
+    flex-direction: row;
+}
+
+.SplitPane-left {
+    margin-right: 10px;
+}
+
+.SplitPane-right {
+    margin-left: 10px;
+}

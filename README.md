@@ -51,8 +51,8 @@ React exercises are from [Reactjs.org](https://reactjs.org/docs/getting-started.
 8. Lists and Keys | DONE :heavy_check_mark:
 9. Forms | DONE :heavy_check_mark:
 10. Lifting State Up | DONE :heavy_check_mark:
-11. Composition vs Inheritance
-12. Thinking In React
+11. Composition vs Inheritance | DONE :heavy_check_mark:
+12. Thinking In React | DONE :heavy_check_mark:
 
 ## Hooks
 1. Introducing Hooks
