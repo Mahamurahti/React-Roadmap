@@ -4,8 +4,8 @@ correct one so that the correct exercise is displayed.
 
 ## Exercises
 1. Introducing Hooks ("hooks" project setup and quick example of useSate)
-2. Hooks at a Glance
-3. Using the State Hook
-4. Using the Effect Hook
+2. Hooks at a Glance (small introduction to useSate, useEffect and custom hooks)
+3. Using the State Hook (Counter example of useSate)
+4. Using the Effect Hook (Counter + Chat example of useEffect and its optimization)
 5. Rules of Hooks
 6. Building Your Own Hooks
