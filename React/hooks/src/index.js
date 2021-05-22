@@ -13,6 +13,12 @@ import ReactDOM from 'react-dom';
 // Exercise 4
 import Counter from "./UsingEffectHook";
 
+// Exercise 5
+/** @see RulesOfHooks.js */
+
+// Exercise 6
+/** @see BuildingYourOwnHooks.js */
+
 ReactDOM.render(
   <React.StrictMode>
     <Counter />

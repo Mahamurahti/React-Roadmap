@@ -56,11 +56,11 @@ React exercises are from [Reactjs.org](https://reactjs.org/docs/getting-started.
 
 ## Hooks
 1. Introducing Hooks | DONE :heavy_check_mark:
-2. Hooks at a Glance
-3. Using the State Hook
-4. Using the Effect Hook
-5. Rules of Hooks
-6. Building Your Own Hooks
+2. Hooks at a Glance | DONE :heavy_check_mark:
+3. Using the State Hook | DONE :heavy_check_mark:
+4. Using the Effect Hook | DONE :heavy_check_mark:
+5. Rules of Hooks | DONE :heavy_check_mark:
+6. Building Your Own Hooks | DONE :heavy_check_mark:
 
 ## Todo App
 1. Create app

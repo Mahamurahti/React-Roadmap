@@ -7,5 +7,5 @@ correct one so that the correct exercise is displayed.
 2. Hooks at a Glance (small introduction to useSate, useEffect and custom hooks)
 3. Using the State Hook (Counter example of useSate)
 4. Using the Effect Hook (Counter + Chat example of useEffect and its optimization)
-5. Rules of Hooks
-6. Building Your Own Hooks
+5. Rules of Hooks (general rules when using hooks with examples)
+6. Building Your Own Hooks (extracting duplicate code and creating reusable hooks)
