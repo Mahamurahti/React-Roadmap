@@ -63,5 +63,5 @@ React exercises are from [Reactjs.org](https://reactjs.org/docs/getting-started.
 6. Building Your Own Hooks | DONE :heavy_check_mark:
 
 ## Todo App
-1. Create app
-2. Document the app
+1. Create app | DONE :heavy_check_mark:
+2. Document the app | DONE :heavy_check_mark:
