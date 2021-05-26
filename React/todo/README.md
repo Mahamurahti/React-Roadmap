@@ -1,10 +1,12 @@
 # My Installation Process
 
+Here I cover how I installed all the dependencies I needed for the project.
+
 First I installed the create-react-app command with 
 ### `npm install -g create-react-app`
 After installing it, I initiated the installation with
 ### `npx create-react-app todo`
-Later I added tailwind to style my app. I first installed the package with a couple of installations:
+Later I added tailwind to style my app. I first installed a couple of dependecies:
 ### `npm install -D tailwindcss@npm:@tailwindcss/postcss7-compat postcss@^7 autoprefixer@^9`
 Since React Apps don't support PostCSS, I had to install Craco:
 ### `npm install @craco/craco`
@@ -69,8 +71,8 @@ Tailwind needs to also be included in the project, so in the projects `index.css
 @tailwind components;
 @tailwind utilities;
 ```
-The css file will throw errors, since it doesn't know what is going on with @tailwind keyword, but it just works.
-After this I just added the css file to my app:
+The css file will throw errors, since it doesn't know what is going on with @tailwind keyword, but it 
+[just works](https://www.youtube.com/watch?v=nVqcxarP9J4). After this I just added the css file to my app:
 ```
 import React from 'react';
 import ReactDOM from 'react-dom';
