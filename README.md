@@ -63,5 +63,16 @@ React exercises are from [Reactjs.org](https://reactjs.org/docs/getting-started.
 6. Building Your Own Hooks | DONE :heavy_check_mark:
 
 ## Todo App
-1. Create app | DONE :heavy_check_mark:
-2. Document the app | DONE :heavy_check_mark:
+1. Create the app | DONE :heavy_check_mark:
+2. Style with [Tailwindcss](https://tailwindcss.com/docs/guides/create-react-app)  | DONE :heavy_check_mark:
+3. Document the app | DONE :heavy_check_mark:
+
+# Next.js
+Next.js exercises are from [Nextjs.org](https://nextjs.org/learn/basics/create-nextjs-app)
+1. Create a Next.js App
+2. Navigation
+3. CSS and more
+4. Rendering and fetching
+5. Dynamic routes
+6. API routes
+7. Deployment
