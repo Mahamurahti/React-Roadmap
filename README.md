@@ -2,7 +2,7 @@
 Series of exercises to learn React. This repository loosely follows the roadmap created by 
 [Adam Golab](https://github.com/adam-golab/react-developer-roadmap), which can be seen below.
 
-![alt text](https://github.com/adam-golab/react-developer-roadmap/blob/master/roadmap.png "React Roadmap")
+![Adam Golabs React Roadmap](https://github.com/adam-golab/react-developer-roadmap/blob/master/roadmap.png "React Roadmap")
 
 # HTML & CSS
 1. Product landing page | DONE :heavy_check_mark:
@@ -24,8 +24,8 @@ Series of exercises to learn React. This repository loosely follows the roadmap 
 6. If - Else statements | DONE :heavy_check_mark:
 7. Strings | DONE :heavy_check_mark:
 8. Regexp | DONE :heavy_check_mark:
-9. Numbers and Math
-10. Dates
+9. Numbers and Math | DONE :heavy_check_mark:
+10. Dates | DONE :heavy_check_mark:
 11. DOM Node
 12. Browser
 13. Events
