@@ -69,10 +69,10 @@ React exercises are from [Reactjs.org](https://reactjs.org/docs/getting-started.
 
 # Next.js
 Next.js exercises are from [Nextjs.org](https://nextjs.org/learn/basics/create-nextjs-app)
-1. Create a Next.js App
-2. Navigation
-3. CSS and more
-4. Rendering and fetching
+1. Create a Next.js App | DONE :heavy_check_mark:
+2. Navigation | DONE :heavy_check_mark:
+3. CSS and more | DONE :heavy_check_mark:
+4. Rendering and fetching | DONE :heavy_check_mark:
 5. Dynamic routes
 6. API routes
 7. Deployment
