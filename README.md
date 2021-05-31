@@ -75,4 +75,4 @@ Next.js exercises are from [Nextjs.org](https://nextjs.org/learn/basics/create-n
 4. Rendering and fetching | DONE :heavy_check_mark:
 5. Dynamic routes | DONE :heavy_check_mark:
 6. API routes | DONE :heavy_check_mark:
-7. Deployment
+7. Deployment | DONE :heavy_check_mark:
