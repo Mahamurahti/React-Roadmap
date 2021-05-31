@@ -73,6 +73,6 @@ Next.js exercises are from [Nextjs.org](https://nextjs.org/learn/basics/create-n
 2. Navigation | DONE :heavy_check_mark:
 3. CSS and more | DONE :heavy_check_mark:
 4. Rendering and fetching | DONE :heavy_check_mark:
-5. Dynamic routes
-6. API routes
+5. Dynamic routes | DONE :heavy_check_mark:
+6. API routes | DONE :heavy_check_mark:
 7. Deployment
